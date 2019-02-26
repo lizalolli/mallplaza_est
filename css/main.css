@@ -1,0 +1,168 @@
+body {
+	padding-top: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 600px;
+}
+
+.container img{
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+.container-nav{
+  font-size: 12px;
+  list-style-type: none;
+  color: grey;
+  font-weight: 100;
+}
+
+.container-nav a{
+  list-style-type: none;
+  color:grey;
+}
+
+.estacionamientos{
+	background-color: #db3647;
+	color: white;
+  height: 250px;
+	border-radius: 0px;
+	font-style: italic;
+	margin-bottom: 10px;
+	background-image: url('../img/car.png');
+  background-repeat: no-repeat;
+  background-position: right 50px center;
+  background-size: 170px;
+}    
+
+.card-row{
+	margin-bottom:15px;
+}
+
+.container-boton h5{
+  font-size: 20px;
+  font-weight: bold;
+  color:#db3647;
+}
+
+.card-item{
+	flex:1;
+	text-align: center;
+	height:72px;
+	align-items: center;
+	margin:0; 
+	padding: 5px;
+}
+
+.card-item h2{
+  font-family: 'Roboto Slab', serif; 
+}
+
+.container-card-item{
+	flex:1;
+	padding-left: 20px;
+}
+
+.e1{
+	width: 100px;
+	flex:initial;
+}
+
+#mapa{
+	display: none;
+}
+
+.totales{
+	height: 30px;
+}
+
+.titulo{
+  max-width:500px; 
+  padding-left:30px;
+}
+
+h5{
+  font-size: 15px;
+}
+
+h3{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+h2{
+  margin:0;
+  font-size: 37px;
+}
+
+h1{
+  font-size:30px;
+  font-weight: 500;
+}
+
+/*MQ*/
+
+@media only screen and (max-width: 375px) {
+  .e1{
+    width: 80px;
+  }
+} 
+
+@media only screen and (max-width: 576px) {
+  h5{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h3{
+    font-size: 15px;
+    font-weight: 100;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h2{
+    font-size: 30px;
+  }
+} 
+
+@media only screen and (max-width: 576px) {
+  h1{
+    font-size: 20px;
+  }
+} 
+
+@media only screen and (max-width: 576px) {
+ .estacionamientos{
+    background-size: 100px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+ .container-boton h5{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+ .estacionamientos{
+    background-position: right 30px center;
+  }    
+}
+
+@media only screen and (max-width: 576px) {
+ .titulo{
+    padding-left: 15px;
+  }    
+}
+
+@media only screen and (max-width: 576px) {
+ .container-nav{
+    font-size: 15px;
+  }    
+}
